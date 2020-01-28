@@ -1,0 +1,16 @@
+Done with  LogisticRegression
+Done with  MLPClassifier
+Done with  SGDClassifier
+Done with  SVC
+Done with  RandomForestClassifier
+Best solution:
+  
+{'solution': {'name': 'RandomForestClassifier', 'parameters': {'n_estimators': 2, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_split': 0.7000000000000001}}, 'score': 0.8}
+
+All solutions [
+{'solution': {'name': 'LogisticRegression', 'parameters': {'penalty': 'l1', 'C': 0.012742749857031334, 'solver': 'liblinear', 'n_jobs': -1}}, 'score': 0.6923076923076923}, 
+{'solution': {'name': 'MLPClassifier', 'parameters': {'hidden_layer_sizes': (33,), 'activation': 'relu', 'solver': 'sgd', 'alpha': 0.05994842503189409, 'learning_rate': 'constant'}}, 'score': 0.7384615384615385}, 
+{'solution': {'name': 'SGDClassifier', 'parameters': {'penalty': 'l2', 'loss': 'log', 'alpha': 0.21544346900318845, 'eta0': 2.782559402207126, 'learning_rate': 'invscaling'}}, 'score': 0.6461538461538462}, 
+{'solution': {'name': 'SVC', 'parameters': {'C': 0.7742636826811278, 'kernel': 'rbf', 'gamma': 'auto'}}, 'score': 0.7384615384615385}, 
+{'solution': {'name': 'RandomForestClassifier', 'parameters': {'n_estimators': 2, 'criterion': 'entropy', 'max_depth': 2, 'min_samples_split': 0.7000000000000001}}, 'score': 0.8}
+]
